@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.build.SuperModule">
+        <methods>
+          <include name="m4"/>
+        </methods>
+      </class> <!-- com.build.SuperModule -->
+      <class name="com.build.SampleModule">
+        <methods>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- com.build.SampleModule -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
