@@ -4,6 +4,9 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.build.TestModule"/>
+      <class name="com.build.DemoModule"/>
+      <class name="com.build.SampleModule"/>
+      <class name="com.build.SuperModule"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
