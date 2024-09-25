@@ -43,7 +43,8 @@ public class SuperModule {
 		
 		driver.findElement(By.xpath("//button[@class='ytp-play-button ytp-button']")).click();
 		
-		System.out.println("Test case 4 is passed");
+		System.out.println("Test case 4 is passed successfully");
+		
 	}
 
 }
